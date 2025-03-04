@@ -13,7 +13,7 @@
                 $result = mysqli_query($conn, $query);
                 while ($promotion  = mysqli_fetch_assoc($result)) {
                     echo "<div class='image fade'>
-                    <img src='image/{$promotion['promotionPhoto']}' alt='' />
+                    <img src='image/{$promotion['promotionPhoto']}' alt='{$promotion['promotionName']}' />
                 </div>";
                 } ?>
                 <ul class="bullets">

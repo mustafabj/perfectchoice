@@ -6,24 +6,24 @@ const containerWidth2 = proCon.width;
 let maxScroll2 =
   productContainers2[0].scrollWidth - productContainers2[0].clientWidth;
 
-autobrand2();
-function autobrand2() {
-  if (productContainers2[0].scrollLeft != maxScroll2) {
-    productContainers2[0].scrollLeft += containerWidth2 / 2;
-    setTimeout(autobrand2, 4000);
-  } else {
-    prebrand2();
-  }
-}
+// autobrand2();
+// function autobrand2() {
+//   if (productContainers2[0].scrollLeft < maxScroll2) {
+//     productContainers2[0].scrollLeft += containerWidth2 / 2;
+//     setTimeout(autobrand2, 4000);
+//   } else {
+//     prebrand2();
+//   }
+// }
 
-function prebrand2() {
-  if (productContainers2[0].scrollLeft > 0) {
-    productContainers2[0].scrollLeft -= containerWidth2 / 2;
-    setTimeout(prebrand2, 4000);
-  } else {
-    autobrand2();
-  }
-}
+// function prebrand2() {
+//   if (productContainers2[0].scrollLeft > 0) {
+//     productContainers2[0].scrollLeft -= containerWidth2 / 2;
+//     setTimeout(prebrand2, 4000);
+//   } else {
+//     autobrand2();
+//   }
+// }
 productContainers2.forEach((item, i) => {
   let containerDimensions2 = item.getBoundingClientRect();
   let containerWidth2 = containerDimensions2.width;
@@ -44,25 +44,25 @@ const containerDimensions = productContainers3[0].getBoundingClientRect();
 const containerWidth3 = containerDimensions.width;
 let maxScroll =
   productContainers3[0].scrollWidth - productContainers3[0].clientWidth;
-autobrand();
-function autobrand() {
-  if (productContainers3[0].scrollLeft != maxScroll) {
-    productContainers3[0].scrollLeft += containerWidth3 / 2;
+// autobrand();
+// function autobrand() {
+//   if (productContainers3[0].scrollLeft != maxScroll) {
+//     productContainers3[0].scrollLeft += containerWidth3 / 2;
 
-    const myTimeout = setTimeout(autobrand, 4000);
-  } else {
-    prebrand();
-  }
-}
+//     const myTimeout = setTimeout(autobrand, 4000);
+//   } else {
+//     prebrand();
+//   }
+// }
 
-function prebrand() {
-  if (productContainers3[0].scrollLeft > 0) {
-    productContainers3[0].scrollLeft -= containerWidth3 / 2;
-    const myTimeout = setTimeout(prebrand, 4000);
-  } else {
-    autobrand();
-  }
-}
+// function prebrand() {
+//   if (productContainers3[0].scrollLeft > 0) {
+//     productContainers3[0].scrollLeft -= containerWidth3 / 2;
+//     const myTimeout = setTimeout(prebrand, 4000);
+//   } else {
+//     autobrand();
+//   }
+// }
 
 productContainers3.forEach((item, i) => {
   let containerDimensions3 = item.getBoundingClientRect();
