@@ -278,14 +278,14 @@ header .search button i {
   scroll-behavior: smooth;
   justify-content: space-between;
   align-items: center;
+  padding-left: 40px;
 }
 .Category::-webkit-scrollbar {
   display: none;
 }
 .catCard {
-  min-width: 110px;
+  min-width: 180px;
   display: flex;
-
   align-items: center;
 }
 @media (max-width: 767px) {
@@ -332,10 +332,6 @@ header .search button i {
   font-size: 1em;
   margin-right: 5px;
 }
-.catCard:first-child {
-  padding-left: 40px;
-}
-
 /* End Category */
 /* Start Promotion */
 .promotion .container {
