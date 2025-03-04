@@ -10,7 +10,7 @@ if (isset($_POST['search']) && $_POST['search'] != "") {
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../image/itorchSmall.png" type="image/x-icon" />
+    <link rel="icon" href="../image/Perfect Choice-01.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/mainAr.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,26 +19,26 @@ if (isset($_POST['search']) && $_POST['search'] != "") {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
     <!-- HTML Meta Tags -->
-    <title>اي تورتش الاردن | متجر أجهزة كمبيوتر وإلكترونيات في عمان - الأردن</title>
-    <meta name="description" content="متجر اي تورتش هو المتجر الأكثر حداثة للأجهزة الإلكترونية وألعاب الفيديو وإكسسوارات الكمبيوتر ومعدات الحوسبة ومتجر ألعاب الكمبيوتر في عمان اي تورتش الاردن هو أحد متاجر أجهزة الكمبيوتر والإلكترونيات الرائدة في عمان الأردن ، متخصص في أجهزة الكمبيوتر وأجهزة الكمبيوتر المحمولة والبلاي ستيشن وخوادم اكس بوكس، حيث يقدم افضل سعر وافضل خدمة في الاردن.">
+    <title>الخيار المثالي | مستلزمات مميزة، أجهزة منزلية، قرطاسية، تحف، ألعاب، إكسسوارات، مكياج</title>
+    <meta name="description" content="الخيار المثالي  ، مستلزمات مميزة، أجهزة منزلية، قرطاسية، تحف، ألعاب، إكسسوارات، مكياج">
 
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="اي تورتش الاردن | متجر أجهزة كمبيوتر وإلكترونيات في عمان - الأردن">
-    <meta itemprop="description" content="متجر اي تورتش هو المتجر الأكثر حداثة للأجهزة الإلكترونية وألعاب الفيديو وإكسسوارات الكمبيوتر ومعدات الحوسبة ومتجر ألعاب الكمبيوتر في عمان اي تورتش الاردن هو أحد متاجر أجهزة الكمبيوتر والإلكترونيات الرائدة في عمان الأردن ، متخصص في أجهزة الكمبيوتر وأجهزة الكمبيوتر المحمولة والبلاي ستيشن وخوادم اكس بوكس، حيث يقدم افضل سعر وافضل خدمة في الاردن.">
-    <meta itemprop="image" content="https://itorchjo.com/Ar/../image/itorchStore.jpg">
+    <meta itemprop="name" content="الخيار المثالي | مستلزمات مميزة، أجهزة منزلية، قرطاسية، تحف، ألعاب، إكسسوارات، مكياج">
+    <meta itemprop="description" content="الخيار المثالي  ، مستلزمات مميزة، أجهزة منزلية، قرطاسية، تحف، ألعاب، إكسسوارات، مكياج">
+    <meta itemprop="image" content="https://perfectchoicejo.com/Ar/image/Perfect Choice-01.png">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://itorchjo.com/Ar">
+    <meta property="og:url" content="https://perfectchoicejo.com/Ar/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="اي تورتش الاردن | متجر أجهزة كمبيوتر وإلكترونيات في عمان - الأردن">
-    <meta property="og:description" content="متجر اي تورتش هو المتجر الأكثر حداثة للأجهزة الإلكترونية وألعاب الفيديو وإكسسوارات الكمبيوتر ومعدات الحوسبة ومتجر ألعاب الكمبيوتر في عمان اي تورتش الاردن هو أحد متاجر أجهزة الكمبيوتر والإلكترونيات الرائدة في عمان الأردن ، متخصص في أجهزة الكمبيوتر وأجهزة الكمبيوتر المحمولة والبلاي ستيشن وخوادم اكس بوكس، حيث يقدم افضل سعر وافضل خدمة في الاردن.">
-    <meta property="og:image" content="https://itorchjo.com/Ar/../image/itorchStore.jpg">
+    <meta property="og:title" content="الخيار المثالي | مستلزمات مميزة، أجهزة منزلية، قرطاسية، تحف، ألعاب، إكسسوارات، مكياج">
+    <meta property="og:description" content="الخيار المثالي  ، مستلزمات مميزة، أجهزة منزلية، قرطاسية، تحف، ألعاب، إكسسوارات، مكياج">
+    <meta property="og:image" content="https://perfectchoicejo.com/Ar/image/Perfect Choice-01.png">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="اي تورتش الاردن | متجر أجهزة كمبيوتر وإلكترونيات في عمان - الأردن">
-    <meta name="twitter:description" content="متجر اي تورتش هو المتجر الأكثر حداثة للأجهزة الإلكترونية وألعاب الفيديو وإكسسوارات الكمبيوتر ومعدات الحوسبة ومتجر ألعاب الكمبيوتر في عمان اي تورتش الاردن هو أحد متاجر أجهزة الكمبيوتر والإلكترونيات الرائدة في عمان الأردن ، متخصص في أجهزة الكمبيوتر وأجهزة الكمبيوتر المحمولة والبلاي ستيشن وخوادم اكس بوكس، حيث يقدم افضل سعر وافضل خدمة في الاردن.">
-    <meta name="twitter:image" content="https://itorchjo.com/Ar/../image/itorchStore.jpg">
+    <meta name="twitter:title" content="الخيار المثالي | مستلزمات مميزة، أجهزة منزلية، قرطاسية، تحف، ألعاب، إكسسوارات، مكياج">
+    <meta name="twitter:description" content="الخيار المثالي  ، مستلزمات مميزة، أجهزة منزلية، قرطاسية، تحف، ألعاب، إكسسوارات، مكياج">
+    <meta name="twitter:image" content="https://perfectchoicejo.com/Ar/image/Perfect Choice-01.png">
 
 </head>
 
@@ -51,8 +51,8 @@ if (isset($_POST['search']) && $_POST['search'] != "") {
     <header>
         <div class="container">
             <div class="logo">
-                <a href="https://itorchjo.com/Ar/">
-                    <img src="../image/itorchLogo.png" alt="" srcset="" />
+                <a href="https://perfectchoicejo.com/Ar/">
+                    <img src="../image/Perfect Choice-01.png" alt="" srcset="" />
                 </a>
             </div>
             <form method="post">
@@ -64,7 +64,7 @@ if (isset($_POST['search']) && $_POST['search'] != "") {
                 </div>
             </form>
             <div class="lang">
-                <a href="https://itorchjo.com/">English</a>
+                <a href="https://perfectchoicejo.com/">English</a>
             </div>
         </div>
     </header>
