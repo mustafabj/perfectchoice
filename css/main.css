@@ -197,6 +197,11 @@ header .container {
 header img {
   width: 100px;
 }
+@media (max-width: 767px) {
+  header img {
+    width: 80px;
+  }
+}
 header form {
   width: 55%;
 }
