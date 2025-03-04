@@ -29,7 +29,7 @@
         Right Reserved
     </p>
 </footer>
-<script src="js/main.js"></script>
+<script src="js/main.js?v=1"></script>
 </body>
 
 </html>

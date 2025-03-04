@@ -27,7 +27,7 @@
         <span><a href="https://nurembergtech.com">&nbsp;مجموعة نورمبرغ&nbsp;</a></span> جميع الحقوق محفوظة
     </p>
 </footer>
-<script src="../js/main.js"></script>
+<script src="../js/main.js?v=1"></script>
 </body>
 
 </html>
