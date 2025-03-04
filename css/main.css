@@ -199,7 +199,7 @@ header img {
 }
 @media (max-width: 767px) {
   header img {
-    width: 80px;
+    width: 80px !important;
   }
 }
 header form {
