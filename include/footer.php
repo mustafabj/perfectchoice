@@ -17,7 +17,7 @@
                     class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/perfectchoice.ez?igsh=d2hnNGVxeHJnMXF4" target="_blank"><i
                     class="fa-brands fa-instagram"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=00962799000929" target="_blank"><i
+            <a href="https://api.whatsapp.com/send?phone=962799000929" target="_blank"><i
                     class="fa-brands fa-whatsapp"></i></a>
         </div>
     </div>
